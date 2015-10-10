@@ -33,4 +33,10 @@ random
 ejson
 spacebars
 check
-bootstrap
+service-configuration
+accounts-base
+twbs:bootstrap
+ian:accounts-ui-bootstrap-3
+accounts-facebook
+accounts-google
+dburles:google-maps

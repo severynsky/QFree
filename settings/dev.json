@@ -1,0 +1,15 @@
+{
+  "public": {
+    "defaultTitle": "QFree"
+  },
+  "facebookServiceConfig": {
+    "service": "facebook",
+    "appId": "1630611703884982",
+    "secret": "b4de24b7ecc5f255e0d238cd4df7e4cb"
+  },
+  "googleServiceConfig": {
+    "service": "google",
+    "clientId": "408443370550-fcijcubjsd7hfcs7t65dng8bfqdvof4f.apps.googleusercontent.com",
+    "secret": "ckyouEvA-6KWcUie4t4qxrze"
+  }
+}
