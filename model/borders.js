@@ -1,0 +1,1 @@
+Borders = new Mongo.Collection("borders");
