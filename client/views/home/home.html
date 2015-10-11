@@ -1,6 +1,8 @@
 <template name="home">
   <div class="container">
-    home
+    <div class="map-container">
+      {{> googleMap name="pointsMap" options=pointsMapOptions}}
+    </div>
     {{#afModal class="btn btn-fab btn-material-red" collection="Points" operation="insert" title="Add a new point"}}
       +
     {{/afModal}}

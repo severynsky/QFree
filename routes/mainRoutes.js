@@ -4,7 +4,11 @@ Router.configure({
 
 Router.route('/', {
   template: 'home',
-  name: 'home'
+  name: 'home',
+  onBeforeAction: function(){
+    GoogleMaps.load();
+    this.next();
+  }
 });
 
 
