@@ -40,3 +40,10 @@ ian:accounts-ui-bootstrap-3
 accounts-facebook
 accounts-google
 dburles:google-maps
+fezvrasta:bootstrap-material-design
+coffeescript
+cfs:standard-packages
+aldeed:autoform
+yogiben:autoform-modals
+cfs:autoform
+cfs:gridfs

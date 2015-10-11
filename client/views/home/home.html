@@ -1,3 +1,9 @@
 <template name="home">
-home
+  <div class="container">
+    home
+    {{#afModal class="btn btn-fab btn-material-red" collection="Points" operation="insert" title="Add a new point"}}
+      +
+    {{/afModal}}
+  </div>
+  {{> autoformModals}}
 </template>

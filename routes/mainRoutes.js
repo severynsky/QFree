@@ -8,9 +8,10 @@ Router.route('/', {
 });
 
 
-
-Router.route('/initpage', function () {
-  // layoutTemplate: 'simpleLayout',
-  this.layout("simpleLayout"),
-  this.render('initpage');
+Router.route('/initpage', {
+  template: ('initpage')
 });
+
+Router.route('/piont', {
+  template: 'piontDetails'
+})
